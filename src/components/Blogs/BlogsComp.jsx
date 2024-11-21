@@ -1,3 +1,4 @@
+import Img5 from "../../assets/blog/app.png";
 import Img4 from "../../assets/blog/blog4.jpg";
 import Img1 from "../../assets/blog/image1.png";
 import Img2 from "../../assets/blog/image2.png";
@@ -34,6 +35,14 @@ const BlogsData = [
     description:
       "“AgriConnect has transformed the way we manage our agricultural operations. ”",
   },
+  {
+    id: 5, // Unique ID for the new project
+    image: Img5, // Add the image related to the Digital Healthcare App
+    title: "Digital Healthcare App",
+
+    description:
+      "“The Digital Healthcare App connects physicians and patients for improved healthcare access and delivery.”",
+  },
 ];
 
 const BlogsComp = () => {
@@ -42,7 +51,7 @@ const BlogsComp = () => {
       <div className="bg-gray-100 dark:bg-gray-900 dark:text-white py-10 pb-14">
         <section data-aos="fade-up" className="container">
           <h1 className="my-8 border-l-8 border-primary/50 py-2 pl-2 text-3xl font-semibold">
-            Our Products
+            Our Blogs
           </h1>
           {/* Horizontal Scrollable Row with Fixed Width and Height */}
           <div className="flex space-x-6 overflow-x-scroll scrollbar-hide">

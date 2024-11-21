@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import yellowCar from "../../assets/website/image.png";
+import { useState } from "react";
+import heroimage from "../../assets/website/image.png";
 
 const Hero = () => {
   // State to toggle the visibility of additional content
@@ -17,19 +17,14 @@ const Hero = () => {
           {/* Image section */}
           <div data-aos="zoom-in" className="order-1 sm:order-2 relative">
             <img
-              src={yellowCar}
-              alt="Yellow Car"
+              src={heroimage}
+              alt="images"
               className="w-full sm:max-w-[280px] md:max-w-[430px]"
             />
             <div
               data-aos="slide-right"
               className="absolute -bottom-5 -right-8 px-4 py-2 rounded-xl bg-white dark:bg-gray-900 dark:text-white shadow-md"
-            >
-              <p className="text-gray-500 text-sm ">⭐Projects</p>
-              <h1 className="font-bold">
-                3+ <span className="font-normal">Done</span>
-              </h1>
-            </div>
+            ></div>
           </div>
 
           {/* Text section */}
