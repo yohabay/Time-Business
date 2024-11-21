@@ -1,8 +1,15 @@
-/* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useState } from "react";
 import yellowCar from "../../assets/website/image.png";
 
 const Hero = () => {
+  // State to toggle the visibility of additional content
+  const [showMore, setShowMore] = useState(false);
+
+  // Toggle the state when Learn More is clicked
+  const handleLearnMoreClick = () => {
+    setShowMore(!showMore);
+  };
+
   return (
     <div className="dark:bg-gray-950 dark:text-white duration-300 ">
       <div className="container min-h-[620px] flex mt-10 sm:mt-0">
@@ -11,7 +18,7 @@ const Hero = () => {
           <div data-aos="zoom-in" className="order-1 sm:order-2 relative">
             <img
               src={yellowCar}
-              alt=""
+              alt="Yellow Car"
               className="w-full sm:max-w-[280px] md:max-w-[430px]"
             />
             <div
@@ -42,13 +49,28 @@ const Hero = () => {
               outcomes and promoting sustainable nutrition agriculture
               practices.
             </p>
+
+            {/* Toggleable extra content */}
+            {showMore && (
+              <div data-aos="fade-up" data-aos-delay="500">
+                <p>
+                  We work alongside farmers, researchers, and healthcare
+                  providers to implement technology-driven solutions that make a
+                  lasting impact. Our team is committed to delivering excellence
+                  through collaboration and innovation.
+                </p>
+              </div>
+            )}
+
+            {/* Learn More button */}
             <button
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-offset="0"
               className="primary-btn"
+              onClick={handleLearnMoreClick}
             >
-              Learn More
+              {showMore ? "Show Less" : "Learn More"}
             </button>
           </div>
         </div>

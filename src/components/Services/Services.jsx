@@ -78,16 +78,6 @@ const Services = () => {
               </div>
             ))}
           </div>
-
-          {/* button */}
-          <div
-            data-aos="fade-up"
-            data-aos-delay="900"
-            data-aos-offset="0"
-            className="text-center mt-4 sm:mt-8"
-          >
-            <button className="primary-btn">Learn More</button>
-          </div>
         </div>
       </div>
     </>
