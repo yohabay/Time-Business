@@ -4,13 +4,13 @@ import { FaClipboardCheck, FaHeart, FaRocket, FaUsers } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="p-6 bg-gray-200">
+    <div className="p-6">
       <h1 className="text-3xl font-bold mb-6 text-center">About Us</h1>
 
       {/* Flexbox container for section rows */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* Mission Section */}
-        <section className="bg-white shadow-md rounded-lg p-4">
+        <section className=" shadow-md rounded-lg p-4">
           <div className="flex items-center mb-4">
             <FaRocket className="text-primary text-2xl mr-4" />
             <h3 className="text-xl font-semibold">Our Mission</h3>
@@ -24,7 +24,7 @@ const About = () => {
         </section>
 
         {/* Values Section */}
-        <section className="bg-white shadow-md rounded-lg p-4">
+        <section className=" shadow-md rounded-lg p-4">
           <div className="flex items-center mb-4">
             <FaHeart className="text-primary text-2xl mr-4" />
             <h3 className="text-xl font-semibold">Our Values</h3>
@@ -38,7 +38,7 @@ const About = () => {
         </section>
 
         {/* Team Section */}
-        <section className="bg-white shadow-md rounded-lg p-4">
+        <section className=" shadow-md rounded-lg p-4">
           <div className="flex items-center mb-4">
             <FaUsers className="text-primary text-2xl mr-4" />
             <h3 className="text-xl font-semibold">Our Team</h3>
@@ -54,7 +54,7 @@ const About = () => {
       {/* Additional Sections */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
         {/* Achievements Section */}
-        <section className="bg-white shadow-md rounded-lg p-4">
+        <section className=" shadow-md rounded-lg p-4">
           <div className="flex items-center mb-4">
             <FaClipboardCheck className="text-primary text-2xl mr-4" />
             <h3 className="text-xl font-semibold">Our Achievements</h3>
@@ -67,7 +67,7 @@ const About = () => {
         </section>
 
         {/* Future Goals Section */}
-        <section className="bg-white shadow-md rounded-lg p-4">
+        <section className=" shadow-md rounded-lg p-4">
           <div className="flex items-center mb-4">
             <FaRocket className="text-primary text-2xl mr-4" />
             <h3 className="text-xl font-semibold">Our Future Goals</h3>

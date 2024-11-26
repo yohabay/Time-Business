@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
 import { Link } from "react-scroll"; // Import Link from react-scroll
-import Logo from "../../assets/image.png";
+import Logo from "../../assets/img.ico";
 import ContactForm from "./ContactForm.jsx"; // Import the ContactForm component
 import DarkMode from "./DarkMode";
 import ResponsiveMenu from "./ResponsiveMenu";
@@ -30,8 +30,13 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo section */}
           <a href="" className="flex items-center gap-10">
-            <img src={Logo} alt="" className="w-36" />
-            <span className="text-2xl sm:text-2xl font-semibold ">
+            <img
+              src={Logo}
+              alt=""
+              className="w-16 lg:w-36"
+              style={{ color: "currentColor" }}
+            />
+            <span className="text-2xl sm:text-[20px] font-semibold hidden sm:block">
               Time Business
             </span>
           </a>
