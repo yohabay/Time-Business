@@ -3,6 +3,8 @@ import Img4 from "../../assets/blog/blog4.jpg";
 import Img1 from "../../assets/blog/image1.png";
 import Img2 from "../../assets/blog/image2.png";
 import Img3 from "../../assets/blog/image3.png";
+import Img6 from "../../assets/blog/image5.png";
+import Img7 from "../../assets/blog/image6.png";
 
 import BlogCard from "./BlogCard";
 
@@ -24,16 +26,16 @@ const BlogsData = [
   {
     id: 4,
     image: Img3,
-    title: "Seed Fund",
+    title: "Attending the world conference",
     description:
-      "“AgriConnect has transformed the way we manage our agricultural operations. ”",
+      "“I am connect in Addis Ababa to comminicate with the african  ”",
   },
   {
     id: 4,
     image: Img4,
     title: "Seed Fund",
     description:
-      "“AgriConnect has transformed the way we manage our agricultural operations. ”",
+      "“I compute with in the ethiopian enovators and I get award. ”",
   },
   {
     id: 5, // Unique ID for the new project
@@ -42,6 +44,21 @@ const BlogsData = [
 
     description:
       "“The Digital Healthcare App connects physicians and patients for improved healthcare access and delivery.”",
+  },
+  {
+    id: 6, // Unique ID for the new project
+    image: Img6, // Add the image related to the Digital Healthcare App
+    title: "showcaseing our serivce",
+
+    description:
+      "“We are self-service data analytics software that lets you create visually”",
+  },
+  {
+    id: 7, // Unique ID for the new project
+    image: Img7, // Add the image related to the Digital Healthcare App
+    title: "our working area",
+
+    description: "“I work in mthis area for production ”",
   },
 ];
 
