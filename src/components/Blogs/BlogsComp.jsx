@@ -43,7 +43,7 @@ const BlogsData = [
     title: "Digital Healthcare App",
 
     description:
-      "“The Digital Healthcare App connects physicians and patients for improved healthcare access and delivery.”",
+      "“The Digital Health care App connects physicians and patients for improved healthcare access and delivery.”",
   },
   {
     id: 6, // Unique ID for the new project
