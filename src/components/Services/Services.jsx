@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import { FaCameraRetro } from "react-icons/fa";
+import { FaAppleAlt, FaBriefcase, FaCameraRetro } from "react-icons/fa";
 import { GiNotebook } from "react-icons/gi";
 import { SlNote } from "react-icons/sl";
 
@@ -36,6 +36,22 @@ const skillsData = [
     description:
       "Providing financial consultancy and support to foster economic growth and stability within communities.",
     aosDelay: "700",
+  },
+  {
+    name: "Business Consultancy and Projects Management",
+    icon: <FaBriefcase className="text-4xl text-primary" />, // Changed to a business-related icon
+    link: "#",
+    description:
+      "Offering expert business consultancy and project management services to help organizations optimize operations, enhance efficiency, and achieve their strategic goals.",
+    aosDelay: "500",
+  },
+  {
+    name: "Nutrition",
+    icon: <FaAppleAlt className="text-4xl text-primary" />, // Changed to a nutrition-related icon
+    link: "#",
+    description:
+      "Promoting healthy lifestyles through personalized nutritional advice, meal planning, and guidance to improve well-being and overall health.",
+    aosDelay: "500",
   },
 ];
 const Services = () => {

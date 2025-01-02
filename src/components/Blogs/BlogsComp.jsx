@@ -1,5 +1,4 @@
 import Img5 from "../../assets/blog/app1..png";
-import Img4 from "../../assets/blog/blog4.jpg";
 import Img1 from "../../assets/blog/image1.png";
 import Img2 from "../../assets/blog/image2.png";
 import Img3 from "../../assets/blog/image3.png";
@@ -31,14 +30,7 @@ const BlogsData = [
       "“I am connect in Addis Ababa to comminicate with the african  ”",
   },
   {
-    id: 4,
-    image: Img4,
-    title: "Seed Fund",
-    description:
-      "“I compute with in the ethiopian enovators and I get award. ”",
-  },
-  {
-    id: 5, // Unique ID for the new project
+    id: 4, // Unique ID for the new project
     image: Img5, // Add the image related to the Digital Healthcare App
     title: "Digital Healthcare App",
 
@@ -46,7 +38,7 @@ const BlogsData = [
       "“The Digital Health care App connects physicians and patients for improved healthcare access and delivery.”",
   },
   {
-    id: 6, // Unique ID for the new project
+    id: 5, // Unique ID for the new project
     image: Img6, // Add the image related to the Digital Healthcare App
     title: "showcaseing our serivce",
 
@@ -54,7 +46,7 @@ const BlogsData = [
       "“We are self-service data analytics software that lets you create visually”",
   },
   {
-    id: 7, // Unique ID for the new project
+    id: 6, // Unique ID for the new project
     image: Img7, // Add the image related to the Digital Healthcare App
     title: "our working area",
 
