@@ -34,7 +34,7 @@ const skillsData = [
     icon: <SlNote className="text-4xl text-primary" />,
     link: "#",
     description:
-      "Providing financial consultancy and support to foster economic growth and stability within communities.",
+      "Providing financial consultancy and support to foster economic growth and stability within communities.Accessing finance through simple and easy technology to send receive and marketing products and services  By leveraging simple applications and technology, you can enhance financial access, transactions, and improve product marketing",
     aosDelay: "700",
   },
   {
@@ -46,11 +46,11 @@ const skillsData = [
     aosDelay: "500",
   },
   {
-    name: "Nutrition",
+    name: " Nutritious Food Manufacturing and Sustainable Agri processing",
     icon: <FaAppleAlt className="text-4xl text-primary" />, // Changed to a nutrition-related icon
     link: "#",
     description:
-      "Promoting healthy lifestyles through personalized nutritional advice, meal planning, and guidance to improve well-being and overall health.",
+      "To improve the production and supply of nutrient-dense food, guarantee food security, and encourage healthier diets, innovative solution into agri-processing.",
     aosDelay: "500",
   },
 ];

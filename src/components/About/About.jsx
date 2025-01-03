@@ -44,9 +44,10 @@ const About = () => {
             <h3 className="text-xl font-semibold">Our Team</h3>
           </div>
           <p>
-            Our team is made up of diverse professionals with expertise in
-            technology, health, agriculture, and business. Together, we strive
-            to bring innovative solutions to real-world problems.
+            Our diverse team of professionals in health, agriculture, nutrition,
+            business, and technology collaborates to develop innovative and
+            sustainable solutions for food security, sustainable income, and
+            health challenges, ensuring a positive global impact
           </p>
         </section>
       </div>
@@ -70,15 +71,17 @@ const About = () => {
         <section className=" shadow-md rounded-lg p-4">
           <div className="flex items-center mb-4">
             <FaRocket className="text-primary text-2xl mr-4" />
-            <h3 className="text-xl font-semibold">Our Future Goals</h3>
+            <h3 className="text-xl font-semibold">Our Goals</h3>
           </div>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Expanding our technological impact in emerging markets</li>
-            <li>
-              Fostering more sustainable solutions for agriculture and health
-            </li>
-            <li>Continued growth through partnerships and innovation</li>
-          </ul>
+          <p>
+            Expanding our technological impact in emerging markets Fostering
+            more sustainable innovative and technology based solutions for
+            agriculture,health,Nutrition, access to finance and marketing
+            through digital solution Continued growth through partnerships and
+            innovation, Access nutritious food and achieve Zero hunger at work
+            During the testing of my product's quality standards at the
+            research-grade laboratory
+          </p>
         </section>
       </div>
     </div>

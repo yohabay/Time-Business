@@ -52,11 +52,13 @@ const Hero = () => {
               <span className="text-primary">Health and Agriculture</span>
             </h1>
             <p data-aos="fade-up" data-aos-delay="300">
-              Our Company is dedicated to enhancing public health and
-              agricultural productivity through innovative technology services
-              and research. We aim to serve communities by improving health
-              outcomes and promoting sustainable nutrition agriculture
-              practices.
+              Our Company strive to create transformative services that improve
+              well-being, optimize agriculture, streamline manufacturing,
+              produce nutritious food, and promote sustainable income and
+              economic growth. Our focus on innovation establishes us as a
+              leader in developing solutions that meet society's demands while
+              fostering an easier, healthier, and more resilient system for the
+              community's future
             </p>
 
             {/* Toggleable extra content */}

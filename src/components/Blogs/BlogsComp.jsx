@@ -20,14 +20,14 @@ const BlogsData = [
     image: Img2,
     title: "World Conferencing",
     description:
-      "“AgriConnect has transformed the way we manage our agricultural operations. ”",
+      "“To improve the production and supply of nutrient-dense food, guarantee food security, and encourage healthier diets, innovative solution into agri-processing. ”",
   },
   {
     id: 4,
     image: Img3,
     title: "Attending the world conference",
     description:
-      "“I am connect in Addis Ababa to comminicate with the african  ”",
+      "“At International investment Forum   international high-level leaders & among dedicated stakeholders to addressing global problems ”",
   },
   {
     id: 4, // Unique ID for the new project
@@ -40,10 +40,10 @@ const BlogsData = [
   {
     id: 5, // Unique ID for the new project
     image: Img6, // Add the image related to the Digital Healthcare App
-    title: "showcaseing our serivce",
+    title: "Health",
 
     description:
-      "“We are self-service data analytics software that lets you create visually”",
+      "“our company serving the community by solving different sector problems  with different partners”",
   },
   {
     id: 6, // Unique ID for the new project
